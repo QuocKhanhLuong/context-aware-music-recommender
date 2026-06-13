@@ -1,0 +1,11 @@
+track_name,artist,lyrics,genre,popularity,danceability,energy,valence,tempo,acousticness,speechiness,instrumentalness,loudness,mood
+Library Rain,The Quiet Hours,"breathe slow dream calm peace",ambient,34,0.22,0.18,0.45,72,0.91,0.04,0.82,-24,calm
+Final Rep,Neon Pulse,"rise strong win fight power",pop,78,0.82,0.88,0.74,142,0.08,0.07,0.02,-5,energetic
+Midnight Dance,DJ Aurora,"party dance club tonight shine",dance,86,0.91,0.84,0.82,124,0.05,0.06,0.01,-4,happy
+After Goodbye,Luna Vale,"cry tears alone goodbye but breathe",indie,55,0.42,0.34,0.18,82,0.74,0.05,0.12,-14,sad
+Focus Lines,Paper Maps,"quiet words pages ideas softly move",classical,41,0.31,0.28,0.52,88,0.83,0.03,0.65,-18,calm
+Morning Run,The Kicks,"run strong fearless fire tonight",rock,69,0.74,0.86,0.66,156,0.12,0.08,0.00,-6,energetic
+Soft Stars,Mira North,"sleep dream slow stars silence",ambient,29,0.18,0.16,0.38,64,0.95,0.03,0.76,-26,calm
+House Lights,City Crowd,"dj party love dance wild",dance,81,0.89,0.79,0.79,128,0.07,0.09,0.00,-5,happy
+Healing Road,Blue Harbor,"lost heart lonely tears peace",folk,47,0.39,0.30,0.22,78,0.81,0.04,0.21,-16,sad
+Exam Mode,Soft Circuit,"calm focus steady mind breathe",electronic,44,0.36,0.32,0.49,92,0.62,0.04,0.42,-15,calm
