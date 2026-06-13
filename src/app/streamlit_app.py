@@ -27,6 +27,28 @@ from src.visualization.eda_plots import chi_square_test, pearson_correlation_mat
 
 SAMPLE_PATH = Path("examples/sample_tracks.csv")
 SCENARIOS = ["study", "gym", "sleep", "party", "sad_healing"]
+SCENARIO_LABELS = {
+    "study": "Study",
+    "gym": "Gym",
+    "sleep": "Sleep",
+    "party": "Party",
+    "sad_healing": "Sad healing",
+}
+DISPLAY_COLUMNS = [
+    "track_name",
+    "artist",
+    "genre",
+    "scenario_score",
+    "final_score",
+    "similarity_score",
+    "classifier_probability",
+    "energy",
+    "tempo",
+    "valence",
+    "acousticness",
+    "popularity",
+    "explanations",
+]
 
 
 def _prepare_dataset(df: pd.DataFrame) -> pd.DataFrame:
@@ -42,6 +64,52 @@ def _load_streamlit_dataset(max_rows: int):
     return load_default_tracks_dataset(max_rows=max_rows)
 
 
+def numeric_summary(df: pd.DataFrame) -> pd.DataFrame:
+    """Return numeric summary without relying on newer pandas describe args."""
+    numeric_df = df.select_dtypes(include="number")
+    if numeric_df.empty:
+        return pd.DataFrame()
+    return numeric_df.describe().T
+
+
+def dataset_overview(df: pd.DataFrame) -> dict[str, int]:
+    return {
+        "rows": int(df.shape[0]),
+        "columns": int(df.shape[1]),
+        "numeric_columns": int(len(df.select_dtypes(include="number").columns)),
+        "scenario_count": int(df["scenario_label"].nunique()) if "scenario_label" in df else 0,
+    }
+
+
+def display_recommendations(recommendations: pd.DataFrame) -> pd.DataFrame:
+    columns = [column for column in DISPLAY_COLUMNS if column in recommendations.columns]
+    output = recommendations[columns].copy()
+    for column in ["scenario_score", "final_score", "similarity_score", "classifier_probability"]:
+        if column in output:
+            output[column] = pd.to_numeric(output[column], errors="coerce").round(3)
+    if "explanations" in output:
+        output["explanations"] = output["explanations"].map(lambda value: "; ".join(value) if isinstance(value, list) else value)
+    return output
+
+
+def apply_app_style(st) -> None:
+    st.markdown(
+        """
+        <style>
+        .main .block-container { padding-top: 1.5rem; max-width: 1280px; }
+        div[data-testid="stMetric"] {
+            background: #f8fafc;
+            border: 1px solid #e5e7eb;
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+        }
+        .section-caption { color: #64748b; font-size: 0.92rem; margin-top: -0.35rem; }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
 def main() -> None:
     import streamlit as st
 
@@ -49,8 +117,11 @@ def main() -> None:
     cached_load_dataset = st.cache_data(show_spinner="Loading dataset")(_load_streamlit_dataset)
 
     st.set_page_config(page_title="Context-Aware Music Recommender", layout="wide")
+    apply_app_style(st)
     st.title("Context-Aware Music Evaluation and Recommendation System")
+    st.caption("Offline scenario scoring and recommendation for study, gym, sleep, party, and sad-healing contexts.")
 
+    st.sidebar.header("Controls")
     uploaded = st.sidebar.file_uploader("Load CSV", type=["csv"])
     max_rows = st.sidebar.number_input("Max rows to load", min_value=10, max_value=100000, value=5000, step=500)
     if uploaded is not None:
@@ -60,6 +131,12 @@ def main() -> None:
         raw_df, source_path = cached_load_dataset(max_rows=int(max_rows))
     st.sidebar.caption(f"Dataset: {source_path}")
     df = cached_prepare_dataset(raw_df)
+    overview = dataset_overview(df)
+    metric_cols = st.columns(4)
+    metric_cols[0].metric("Rows", f"{overview['rows']:,}")
+    metric_cols[1].metric("Columns", f"{overview['columns']:,}")
+    metric_cols[2].metric("Numeric", f"{overview['numeric_columns']:,}")
+    metric_cols[3].metric("Scenarios", f"{overview['scenario_count']:,}")
 
     page = st.sidebar.radio(
         "Page",
@@ -68,18 +145,30 @@ def main() -> None:
 
     if page == "Dataset Overview":
         st.subheader("Dataset Overview")
-        st.write({"rows": int(df.shape[0]), "columns": int(df.shape[1])})
-        st.dataframe(df.head(20))
-        st.write("Missing values")
-        st.dataframe(df.isna().sum().rename("missing").reset_index())
+        st.markdown('<p class="section-caption">Inspect schema, missing values, and numeric distributions for the active dataset.</p>', unsafe_allow_html=True)
+        left, right = st.columns([2, 1])
+        with left:
+            st.dataframe(df.head(25), use_container_width=True)
+        with right:
+            st.write("Missing values")
+            missing = df.isna().sum().rename("missing").reset_index().rename(columns={"index": "column"})
+            st.dataframe(missing.sort_values("missing", ascending=False).head(30), use_container_width=True)
         st.write("Numeric summary")
-        st.dataframe(df.describe(numeric_only=True).T)
+        summary = numeric_summary(df)
+        if summary.empty:
+            st.info("No numeric columns available.")
+        else:
+            st.dataframe(summary, use_container_width=True)
 
     elif page == "EDA Dashboard":
         st.subheader("EDA Dashboard")
+        st.markdown('<p class="section-caption">Quick visual checks for feature distributions and scenario relationships.</p>', unsafe_allow_html=True)
         numeric = [column for column in ["tempo", "energy", "valence", "popularity"] if column in df]
-        for column in numeric:
-            st.bar_chart(df[column])
+        chart_columns = st.columns(2)
+        for index, column in enumerate(numeric):
+            with chart_columns[index % 2]:
+                st.write(column)
+                st.bar_chart(df[column])
         if {"energy", "valence"}.issubset(df.columns):
             st.scatter_chart(df, x="energy", y="valence", color="scenario_label")
         st.write("Pearson correlation")
@@ -92,6 +181,7 @@ def main() -> None:
 
     elif page == "Model Training & Evaluation":
         st.subheader("Model Training & Evaluation")
+        st.markdown('<p class="section-caption">Train a classifier over the prepared scenario labels and inspect holdout metrics.</p>', unsafe_allow_html=True)
         model_type = st.selectbox("Classifier", ["logistic_regression", "svm", "random_forest"])
         classifier = ScenarioClassifier(model_type=model_type, tune=False)
         if df["scenario_label"].nunique() > 1 and df["scenario_label"].value_counts().min() >= 2:
@@ -105,7 +195,8 @@ def main() -> None:
 
     else:
         st.subheader("Music Recommendation Demo")
-        scenario = st.selectbox("Scenario", SCENARIOS)
+        st.markdown('<p class="section-caption">Rank songs by context fit, optional content similarity, and model probability.</p>', unsafe_allow_html=True)
+        scenario = st.selectbox("Scenario", SCENARIOS, format_func=lambda value: SCENARIO_LABELS[value])
         model_choice = st.selectbox("Model", ["scenario_ranker", "baseline", "hybrid"])
         seed_text = st.text_input("Seed songs for baseline/hybrid", value="")
         top_k = st.slider("Top K", min_value=3, max_value=20, value=5)
@@ -121,7 +212,7 @@ def main() -> None:
         else:
             recommender = ScenarioRanker().fit(df)
             recommendations = recommender.recommend(scenario=scenario, top_k=top_k)
-        st.dataframe(recommendations)
+        st.dataframe(display_recommendations(recommendations), use_container_width=True)
         st.write("Recommendation metrics")
         st.write(recommendation_metrics(recommendations, k=top_k))
 

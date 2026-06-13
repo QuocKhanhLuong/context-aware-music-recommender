@@ -227,6 +227,22 @@ Run cells from top to bottom. It covers:
 8. Hybrid recommendation demo
 9. Notes for the final report
 
+The notebook is independent from the Streamlit app. You can run both at the same time in two terminals:
+
+Terminal 1:
+
+```bash
+streamlit run src/app/streamlit_app.py
+```
+
+Terminal 2:
+
+```bash
+jupyter notebook notebooks/context_aware_music_pipeline.ipynb
+```
+
+Streamlit usually runs on port `8501`; Jupyter usually runs on port `8888`. They can run in parallel because both read local CSV files. If you use the full dataset in both at the same time, preprocessing can be slow, so use `--max-rows 5000` or `--max-rows 10000` for a stable demo.
+
 ## App Demo Flow
 
 After running:
