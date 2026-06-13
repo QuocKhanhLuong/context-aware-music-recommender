@@ -44,3 +44,10 @@ def test_load_default_tracks_dataset_returns_available_dataset():
     df, path = load_default_tracks_dataset(max_rows=2)
     assert len(df) == 2
     assert path.exists()
+
+
+def test_load_default_tracks_dataset_is_independent_of_cwd(monkeypatch, tmp_path):
+    monkeypatch.chdir(tmp_path)
+    df, path = load_default_tracks_dataset(max_rows=2)
+    assert len(df) == 2
+    assert path.exists()

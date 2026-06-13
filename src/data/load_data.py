@@ -7,13 +7,15 @@ from pathlib import Path
 import pandas as pd
 
 
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+
 CANDIDATE_TRACK_DATASETS = [
-    Path("data/processed/tracks_app_ready.csv"),
-    Path("data/raw/spotify_550k_tracks.csv"),
-    Path("data/raw/tracks.csv"),
-    Path("data/allsong_data.csv"),
-    Path("data/processed_data.csv"),
-    Path("examples/sample_tracks.csv"),
+    PROJECT_ROOT / "data/processed/tracks_app_ready.csv",
+    PROJECT_ROOT / "data/raw/spotify_550k_tracks.csv",
+    PROJECT_ROOT / "data/raw/tracks.csv",
+    PROJECT_ROOT / "data/allsong_data.csv",
+    PROJECT_ROOT / "data/processed_data.csv",
+    PROJECT_ROOT / "examples/sample_tracks.csv",
 ]
 
 COLUMN_ALIASES = {
@@ -79,7 +81,7 @@ def load_scraped_chart_dataset(path: str | Path) -> pd.DataFrame:
 
 def find_best_tracks_dataset(paths: list[str | Path] | None = None) -> Path:
     """Return the first loadable dataset path, preferring processed real data."""
-    candidates = [Path(path) for path in (paths or CANDIDATE_TRACK_DATASETS)]
+    candidates = [_resolve_dataset_path(path) for path in (paths or CANDIDATE_TRACK_DATASETS)]
     skipped: list[str] = []
     for path in candidates:
         if not path.exists() or not path.is_file():
@@ -93,6 +95,14 @@ def find_best_tracks_dataset(paths: list[str | Path] | None = None) -> Path:
         except Exception as exc:
             skipped.append(f"{path}: {exc}")
     raise FileNotFoundError("No loadable track dataset found. Checked: " + "; ".join(skipped))
+
+
+def _resolve_dataset_path(path: str | Path) -> Path:
+    """Resolve user-provided paths from cwd first, then project root."""
+    candidate = Path(path).expanduser()
+    if candidate.is_absolute() or candidate.exists():
+        return candidate
+    return PROJECT_ROOT / candidate
 
 
 def prepare_tracks_dataframe(df: pd.DataFrame) -> pd.DataFrame:
