@@ -6,7 +6,7 @@ Define scenario-aware music evaluation and recommendation. Explain why song suit
 
 ## 2. Data Collection
 
-Describe offline base datasets and the Wikipedia Billboard Year-End scraper. Include source URLs, scraping date, and ethical scraping notes.
+Describe offline base datasets, the real-data preparation script, and the Wikipedia Billboard Year-End scraper. Include source URLs, scraping date, and ethical scraping notes.
 
 ## 3. Data Integration and Cleaning
 

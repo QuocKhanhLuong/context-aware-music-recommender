@@ -10,3 +10,5 @@ plotly>=5.18
 matplotlib>=3.7
 seaborn>=0.13
 pytest>=8.0
+kaggle>=1.6
+notebook>=7.0

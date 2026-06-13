@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from collections import Counter, defaultdict
+from functools import lru_cache
 import math
 import re
 
@@ -74,6 +75,12 @@ def train_hmm_pos_tagger(tagged_sentences: list[list[tuple[str, str]]] | None = 
     return transition_probs, emission_probs, tag_priors
 
 
+@lru_cache(maxsize=1)
+def get_default_hmm_model():
+    """Cache the default HMM model so batch lyric processing stays responsive."""
+    return train_hmm_pos_tagger()
+
+
 def viterbi_decode(tokens, transition_probs, emission_probs, tag_priors):
     tokens = [token.lower() for token in tokens]
     if not tokens:
@@ -103,7 +110,9 @@ def viterbi_decode(tokens, transition_probs, emission_probs, tag_priors):
 
 def pos_tag_lyrics(lyrics: object) -> list[tuple[str, str]]:
     tokens = simple_tokenize(lyrics)
-    transition_probs, emission_probs, tag_priors = train_hmm_pos_tagger()
+    if not tokens:
+        return []
+    transition_probs, emission_probs, tag_priors = get_default_hmm_model()
     tags = viterbi_decode(tokens, transition_probs, emission_probs, tag_priors)
     return list(zip(tokens, tags))
 
