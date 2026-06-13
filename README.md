@@ -100,15 +100,48 @@ If online scraping is unavailable, use `examples/sample_billboard_scraped.csv` f
 
 ## Run Notebooks
 
-Notebook placeholders are provided for the final report workflow:
+Use one consolidated notebook for the final report workflow:
 
-- `notebooks/01_data_collection_and_integration.ipynb`
-- `notebooks/02_eda_visualization.ipynb`
-- `notebooks/03_feature_engineering_nlp_audio.ipynb`
-- `notebooks/04_model_training_evaluation.ipynb`
-- `notebooks/05_recommendation_demo.ipynb`
+- `notebooks/context_aware_music_pipeline.ipynb`
 
-Open them with Jupyter and run against the sample CSV first, then replace with downloaded datasets under `data/raw/`.
+Open it with Jupyter and run against the prepared real dataset first. If no real dataset is prepared, it falls back to the sample CSV.
+
+## Prepare Real Data
+
+Large datasets are ignored by git. Put downloaded CSV files under `data/raw/`, then normalize them for the app:
+
+```bash
+python scripts/prepare_real_data.py \
+  --input data/raw/spotify_550k_tracks.csv \
+  --output data/processed/tracks_app_ready.csv
+```
+
+For a faster classroom demo:
+
+```bash
+python scripts/prepare_real_data.py \
+  --input data/raw/spotify_550k_tracks.csv \
+  --output data/processed/tracks_app_ready.csv \
+  --max-rows 5000
+```
+
+If you already have local CSVs from the old reference project, run auto-detection:
+
+```bash
+python scripts/prepare_real_data.py --max-rows 5000
+```
+
+Optional Kaggle CLI download flow:
+
+```bash
+pip install kaggle
+mkdir -p ~/.kaggle
+# put kaggle.json from your Kaggle account in ~/.kaggle/kaggle.json
+chmod 600 ~/.kaggle/kaggle.json
+python scripts/download_kaggle_dataset.py --dataset OWNER/DATASET_SLUG
+```
+
+Then inspect `data/raw/` and pass the downloaded CSV path to `scripts/prepare_real_data.py`.
 
 ## Run Streamlit App
 
@@ -116,7 +149,7 @@ Open them with Jupyter and run against the sample CSV first, then replace with d
 streamlit run src/app/streamlit_app.py
 ```
 
-The app loads `examples/sample_tracks.csv` by default and supports CSV upload.
+The app loads `data/processed/tracks_app_ready.csv` first when available. Otherwise it falls back to raw/local CSV candidates and finally `examples/sample_tracks.csv`. The sidebar shows which dataset source is active and lets you limit rows for faster demos.
 
 ## Run Tests
 

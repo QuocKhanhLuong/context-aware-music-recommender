@@ -6,6 +6,7 @@ from pathlib import Path
 
 import pandas as pd
 
+from src.data.load_data import load_default_tracks_dataset, prepare_tracks_dataframe
 from src.data.preprocess import preprocess_tracks
 from src.features.audio_features import add_audio_helper_scores
 from src.features.emotion_features import create_weak_scenario_label
@@ -32,18 +33,28 @@ def _prepare_dataset(df: pd.DataFrame) -> pd.DataFrame:
     return output
 
 
+def _load_streamlit_dataset(max_rows: int):
+    return load_default_tracks_dataset(max_rows=max_rows)
+
+
 def main() -> None:
     import streamlit as st
+
+    cached_prepare_dataset = st.cache_data(show_spinner="Preparing features")(_prepare_dataset)
+    cached_load_dataset = st.cache_data(show_spinner="Loading dataset")(_load_streamlit_dataset)
 
     st.set_page_config(page_title="Context-Aware Music Recommender", layout="wide")
     st.title("Context-Aware Music Evaluation and Recommendation System")
 
     uploaded = st.sidebar.file_uploader("Load CSV", type=["csv"])
+    max_rows = st.sidebar.number_input("Max rows to load", min_value=10, max_value=100000, value=5000, step=500)
     if uploaded is not None:
-        raw_df = pd.read_csv(uploaded)
+        raw_df = prepare_tracks_dataframe(pd.read_csv(uploaded, nrows=int(max_rows)))
+        source_path = "uploaded CSV"
     else:
-        raw_df = pd.read_csv(SAMPLE_PATH)
-    df = _prepare_dataset(raw_df)
+        raw_df, source_path = cached_load_dataset(max_rows=int(max_rows))
+    st.sidebar.caption(f"Dataset: {source_path}")
+    df = cached_prepare_dataset(raw_df)
 
     page = st.sidebar.radio(
         "Page",
