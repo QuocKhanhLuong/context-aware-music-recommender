@@ -34,8 +34,8 @@ For a fresh clone, the project still runs immediately with sample data under `ex
 | Requirement | Implementation |
 | --- | --- |
 | Problem definition | Scenario-aware music suitability prediction and recommendation |
-| Data collection | Offline CSV datasets plus Wikipedia Billboard Year-End scraping |
-| Data integration and cleaning | `src/data/load_data.py`, `src/data/integrate_data.py`, `src/data/preprocess.py` |
+| Data collection | Offline CSV datasets plus Wikipedia Billboard Year-End scraping (snapshot committed at `examples/billboard_year_end_clean.csv`; see `docs/data_sources.md`) |
+| Data integration and cleaning | `src/data/load_data.py`, `src/data/integrate_data.py`, `src/data/preprocess.py`; chart features are merged into tracks in the notebook (section 3b) and `scripts/prepare_real_data.py` |
 | EDA and visualization | `src/visualization/eda_plots.py` and `notebooks/context_aware_music_pipeline.ipynb` |
 | Machine learning modeling | Baselines, logistic regression, SVM, random forest, holdout split, and CV helpers |
 | Advanced NLP | HMM POS tagging with Viterbi decoding in `src/features/pos_hmm_viterbi.py` |
@@ -190,14 +190,17 @@ After download, inspect `data/raw/`, find the CSV file name, and run `scripts/pr
 
 ## Run Billboard Scraping
 
-Billboard scraping is optional enrichment for the course data-collection requirement.
+The Billboard scraper is the project's web-scraping data-collection deliverable. A
+committed snapshot (`examples/billboard_year_end_clean.csv`, 600 rows, 2018–2023)
+ships with the repo, and its chart features are integrated into the tracks dataset
+(see `docs/data_sources.md`). To refresh or extend the snapshot:
 
 ```bash
 python -m src.scraping.scrape_billboard_wikipedia \
-  --start-year 2010 \
+  --start-year 2018 \
   --end-year 2023 \
   --output data/raw/billboard_year_end_raw.csv \
-  --clean-output data/processed/billboard_year_end_clean.csv
+  --clean-output examples/billboard_year_end_clean.csv
 ```
 
 Ethical scraping note:

@@ -8,6 +8,14 @@ import re
 import pandas as pd
 
 
+CHART_FEATURE_DEFAULTS = {
+    "appeared_in_billboard_year_end": 0,
+    "best_chart_rank": 101,  # beyond the Hot 100, i.e. "not charted"
+    "chart_year_count": 0,
+    "latest_chart_year": 0,
+}
+
+
 def _key(value: object) -> str:
     value = "" if pd.isna(value) else str(value).lower()
     return re.sub(r"[^a-z0-9]+", " ", value).strip()
@@ -42,6 +50,9 @@ def merge_music_and_chart_data(tracks_df: pd.DataFrame, chart_df: pd.DataFrame) 
     """Merge exact normalized keys first, then chart features."""
     tracks = tracks_df.copy()
     chart = chart_df.copy()
+    # Drop any chart columns from a previous integration so re-running stays
+    # idempotent instead of creating _x/_y duplicate columns.
+    tracks = tracks.drop(columns=[c for c in CHART_FEATURE_DEFAULTS if c in tracks.columns])
     tracks["_track_key"] = tracks["track_name"].map(_key)
     tracks["_artist_key"] = tracks["artist"].map(_key)
     chart["_track_key"] = chart["track_name"].map(_key)
@@ -50,6 +61,24 @@ def merge_music_and_chart_data(tracks_df: pd.DataFrame, chart_df: pd.DataFrame) 
     merged = tracks.merge(chart_features, on=["_track_key", "_artist_key"], how="left")
     merged = merged.drop(columns=["_track_key", "_artist_key"])
     return merged
+
+
+def fill_missing_chart_features(df: pd.DataFrame) -> pd.DataFrame:
+    """Fill chart columns for tracks with no Billboard match so models see no NaN."""
+    filled = df.copy()
+    for column, default in CHART_FEATURE_DEFAULTS.items():
+        if column not in filled:
+            filled[column] = default
+        else:
+            filled[column] = filled[column].fillna(default)
+    return filled
+
+
+def attach_chart_features(tracks_df: pd.DataFrame, chart_df: pd.DataFrame) -> tuple[pd.DataFrame, int]:
+    """Merge chart features into tracks and fill defaults; also report match count."""
+    merged = merge_music_and_chart_data(tracks_df, chart_df)
+    matched = int(merged.get("appeared_in_billboard_year_end", pd.Series(dtype=float)).fillna(0).sum())
+    return fill_missing_chart_features(merged), matched
 
 
 def create_chart_features(df: pd.DataFrame) -> pd.DataFrame:

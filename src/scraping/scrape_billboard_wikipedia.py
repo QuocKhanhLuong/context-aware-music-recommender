@@ -43,8 +43,35 @@ def _rank_from_text(text: str) -> int | None:
     return int(match.group()) if match else None
 
 
+RANK_HEADERS = ("rank", "no.", "no", "#", "position", "pos")
+TITLE_HEADERS = ("title", "song", "single")
+ARTIST_HEADERS = ("artist", "artists", "artist(s)", "performer", "performer(s)")
+
+
+def _find_column_indices(headers: list[str]) -> dict[str, int] | None:
+    """Locate rank/title/artist columns by header name (robust to layout changes)."""
+    lowered = [h.lower() for h in headers]
+
+    def find(candidates: tuple[str, ...]) -> int | None:
+        for idx, head in enumerate(lowered):
+            if any(head == cand or head.startswith(cand) for cand in candidates):
+                return idx
+        return None
+
+    rank_idx = find(RANK_HEADERS)
+    title_idx = find(TITLE_HEADERS)
+    artist_idx = find(ARTIST_HEADERS)
+    if rank_idx is None or title_idx is None or artist_idx is None:
+        return None
+    return {"rank": rank_idx, "track_name": title_idx, "artist": artist_idx}
+
+
 def parse_song_table(html: str, year: int, source_url: str | None = None) -> pd.DataFrame:
-    """Parse a Wikipedia song table into year/rank/title/artist rows."""
+    """Parse a Wikipedia song table into year/rank/title/artist rows.
+
+    Wikipedia Year-End tables label the rank column "No." rather than "Rank",
+    so columns are located by header name instead of a fixed position.
+    """
     soup = BeautifulSoup(html, "html.parser")
     tables = soup.select("table.wikitable")
     records: list[dict[str, object]] = []
@@ -55,23 +82,24 @@ def parse_song_table(html: str, year: int, source_url: str | None = None) -> pd.
             continue
 
         headers = [_clean_cell_text(cell.get_text(" ")) for cell in rows[0].find_all(["th", "td"])]
-        header_text = " ".join(headers).lower()
-        if "rank" not in header_text or ("artist" not in header_text and "performer" not in header_text):
+        columns = _find_column_indices(headers)
+        if columns is None:
             continue
 
+        max_idx = max(columns.values())
         for row in rows[1:]:
             cells = [_clean_cell_text(cell.get_text(" ")) for cell in row.find_all(["th", "td"])]
-            if len(cells) < 3:
+            if len(cells) <= max_idx:
                 continue
-            rank = _rank_from_text(cells[0])
+            rank = _rank_from_text(cells[columns["rank"]])
             if rank is None:
                 continue
             records.append(
                 {
                     "year": int(year),
                     "rank": rank,
-                    "track_name": cells[1],
-                    "artist": cells[2],
+                    "track_name": cells[columns["track_name"]],
+                    "artist": cells[columns["artist"]],
                     "source_url": source_url or BASE_URL.format(year=year),
                     "scraped_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
                 }
