@@ -1,111 +1,194 @@
-# Enhance your Playlists with Machine Learning: Spotify Automatic Playlist Continuation
+# Context-Aware Music Evaluation and Recommendation System
 
-This is the repository of the group project [Enhance your Playlists with Machine Learning: Spotify Automatic Playlist Continuation](https://medium.com/@enjui.chang/enhance-your-playlists-with-machine-learning-spotify-automatic-playlist-continuation-2aae2c926e77). The four articles in the series is linked below:
+## A Data Science Pipeline for Context-Aware Music Evaluation using Web-Scraped Chart Data, Lyrics NLP, Audio Features, and Scenario-Based Recommendation
 
-**Part I**: [Extracting song data from Spotify’s API in Python](https://cameronwwatts.medium.com/extracting-song-data-from-the-spotify-api-using-python-b1e79388d50)
+This repository is an independent IT4142 final project. It transforms an old Spotify playlist recommender idea into an offline, reproducible data science pipeline for evaluating and recommending music for explicit listening scenarios.
 
-**Part II**: EDA and Clustering
+Core scenarios:
 
-**Part III**: [Building a Song Recommendation System with Spotify](https://medium.com/@enjui.chang/part-iii-building-a-song-recommendation-system-with-spotify-cf76b52705e7)
+- `study`
+- `gym`
+- `sleep`
+- `party`
+- `sad_healing`
 
-**Part IV**: [Deploying a Spotify Recommendation Model with Flask](https://medium.com/@yaremko.nazar/deploying-a-spotify-recommendation-model-with-flask-20007b76a20f)
+The main question is: given a song's audio features, lyrics-derived NLP features, POS patterns, genre/popularity metadata, and scraped chart metadata, which listening scenario is the song most suitable for, and why?
 
-The code for all four articles is in this repository.
+## Motivation
 
-## Introduction
+Music recommendation should not rely only on title, artist, genre, or lyrics. The same song can create different feelings for different listeners and contexts. This project addresses teacher feedback by making listening context explicit: the user chooses a scenario, the system scores scenario suitability, ranks songs, and explains the top reasons for each recommendation.
 
-The goal of this project is to recommend songs for a given playlist. This project starts from data collection all the way to model deployment to ensure you have a working model to showcase.
+## Course Scope Mapping
 
-## How to use
+| Requirement | Implementation |
+| --- | --- |
+| Problem definition | Scenario-aware music suitability prediction and recommendation |
+| Data collection | Offline Kaggle-style tracks plus Wikipedia Billboard Year-End scraping |
+| Data cleaning | `src/data/preprocess.py` handles text cleanup, missing values, duplicates, outliers, and normalized audio columns |
+| EDA | `src/visualization/eda_plots.py` plus notebooks for distributions, correlation, chi-square, scatter, bar, treemap, and parallel-coordinate analysis |
+| ML modeling | Baselines, logistic regression, SVM, random forest, holdout split, and GridSearchCV support |
+| Advanced NLP | HMM POS tagging with Viterbi decoding in `src/features/pos_hmm_viterbi.py` |
+| Evaluation | Classification metrics, top-k recommendation metrics, diversity, novelty, scenario fit, and explainability coverage |
+| Big data considerations | `docs/big_data_considerations.md` discusses 500K+ song scaling with chunked Pandas, Dask, Spark, HDFS, and MapReduce |
 
-To clone the repository:
-```sh
-git clone https://github.com/enjuichang/PracticalDataScience-ENCA.git
+## Why No Live Spotify API
+
+The project does not depend on live Spotify Web API endpoints such as Audio Features, Audio Analysis, or Recommendations. Those endpoints are unsuitable for a reproducible offline course project and introduce API access, policy, and availability risks. Use offline datasets and self-collected public chart metadata instead.
+
+## Data Sources
+
+Recommended base dataset:
+
+- 550K Spotify Songs: Audio, Lyrics & Genres or an equivalent offline CSV
+- Expected columns include `track_name`, `artist`, `lyrics`, `genre`, `popularity`, `danceability`, `energy`, `valence`, `tempo`, `acousticness`, `speechiness`, `instrumentalness`, and `loudness`
+
+Optional dataset:
+
+- Mood/emotion-labeled music dataset with labels such as `happy`, `sad`, `energetic`, and `calm`
+
+Scraped data:
+
+- Wikipedia Billboard Year-End Hot 100 singles pages
+- Output fields: `year`, `rank`, `track_name`, `artist`, `source_url`, `scraped_at`
+
+Ethical note: the scraper is intended for polite, reproducible educational use. Check `robots.txt`, Wikimedia API etiquette, and terms of use before large runs. Do not scrape or redistribute copyrighted lyrics unless the source explicitly allows it.
+
+Large raw datasets should not be committed. Keep `data/raw/.gitkeep` and `data/processed/.gitkeep`; use `examples/` for small demo CSVs.
+
+## Folder Structure
+
+```text
+README.md
+requirements.txt
+data/raw/.gitkeep
+data/processed/.gitkeep
+examples/sample_tracks.csv
+examples/sample_billboard_scraped.csv
+notebooks/
+src/
+  scraping/
+  data/
+  features/
+  models/
+  evaluation/
+  visualization/
+  app/
+tests/
+docs/report_outline.md
+docs/big_data_considerations.md
 ```
 
-## Process
+## Installation
 
-The following image is the flow chart of the project:
-
-<img width="810" alt="Screen Shot 2021-12-18 at 12 02 45 AM" src="https://user-images.githubusercontent.com/55577469/146573138-09798463-c9fe-45b9-adc3-f95556e30564.png">
-
-### Data extraction
-
-Here are a couple of things you should know before starting the project.
-
-#### Spotfiy API Acquisition
-If you haven’t used an API before, the use of various keys for authentication, and the sending of requests can prove to be a bit daunting. The first thing we’ll look at is getting keys to use. For this, we need a [Spotify for developers] (https://developer.spotify.com/) account. This is the same as a Spotify account, and doesn’t require Spotify Premium. From here, go to the dashboard and “create an app”. Now, we can access a public and private key, needed to use the API.
-
-#### Spotify Credentials Storage and Access
-
-Now that we have an app, we can get a client ID and a client secret for this app. Both of these will be required to authenticate with the Spotify web API for our application, and can be thought of as a kind of username and password for the application. It is best practice not to share either of these, but especially don’t share the client secret key. To prevent this, we can keep it in a separate file, which, if you’re using Git for version control, should be Gitignored.
-
-Spotify credentials should be stored the in the a `secret.txt` file with the first line as the **credential id** and the second line as the **secret key**:
-
-<img width="293" alt="Screen Shot 2021-12-18 at 12 10 03 AM" src="https://user-images.githubusercontent.com/55577469/146574104-804def73-54ec-449a-931c-86372d3a07a6.png">
-
-To access this credentials, please use the following code:
-
-```python
-with open("secret.txt") as f:
-    secret_ls = f.readlines()
-    cid = secret_ls[0][:-2]
-    secret = secret_ls[1]
-```
-### EDA and clustering
-
-### Recommendation Model
-The recommendation model is summarized in the `content_based_recsys.ipynb` notebook. In this section, we will go through the process of building a content-based filtering recommendation. The following parts will be covered:
-
-1. Package Setup
-2. Preprocessing
-3. Feature Generation
-4. Content-based Filtering Recommendation
-
-Please follow the instruction in the notebook to produce the result.
-
-### Deployment
-
-In order to access the final version of the app, please visit the following link: [nazaryaremko1.pythonanywhere.com](nazaryaremko1.pythonanywhere.com)
-A demo version of the website can be accessed and tested out there. Due to the limitations of file sizes that can be uploaded to pythonanywhere, it the model there is trained only on a subset of the data. To test the full functionality of the model, please, download the repository data, cd into the folder and run the following commands:
-```sh
-cd recommendation_app
-python wsgi.py
-```
-Then visit the local host and try out the model using any playlist!
-
-To create a virtual environment, you can run the following commands:
-```sh
-python3 -m venv venv
-source venv/bin/activate (or venv\Scripts\activate if you are using Windows)
-```
-Installing dependencies in virtual environment:
-```
-pip3 install -r requirements.txt
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
-## Repo Structure
+## Run Scraping
+
+```bash
+python -m src.scraping.scrape_billboard_wikipedia \
+  --start-year 2010 \
+  --end-year 2023 \
+  --output data/raw/billboard_year_end_raw.csv \
+  --clean-output data/processed/billboard_year_end_clean.csv
 ```
-│
-├── README.md          <- The top-level README for developers using this project.
-├── data
-│   ├── raw            <- The original, immutable data dump.
-│   ├── processed      <- The preprocessed data sets for training.
-│   ├── test           <- The test data sets for testing.
-│   └── final          <- The final data sets for modeling.
-│
-├── models             <- Trained models, model predictions, or model summaries.
-│
-├── notebooks          <- Serialized Jupyter notebooks created in the project.
-│   ├── script         <- Script for data extraction and loading data
-│   ├── Extraction     <- Data extraction using Spotify API
-│   ├── EDA            <- Exploratory data analysis process.
-│   └── Recsys         <- The training of traditional statistical models.
-│
-├── recommendation_app <- Model deployment folder
-│   ├── application    <- Code for model deployment and website design
-│   ├── data1          <- Pretrained data for model
-│   └── venv           <- Environment
-│
-└── requirements.txt   <- The requirements file for reproducing the analysis environment.
+
+If online scraping is unavailable, use `examples/sample_billboard_scraped.csv` for tests and demos.
+
+## Run Notebooks
+
+Notebook placeholders are provided for the final report workflow:
+
+- `notebooks/01_data_collection_and_integration.ipynb`
+- `notebooks/02_eda_visualization.ipynb`
+- `notebooks/03_feature_engineering_nlp_audio.ipynb`
+- `notebooks/04_model_training_evaluation.ipynb`
+- `notebooks/05_recommendation_demo.ipynb`
+
+Open them with Jupyter and run against the sample CSV first, then replace with downloaded datasets under `data/raw/`.
+
+## Run Streamlit App
+
+```bash
+streamlit run src/app/streamlit_app.py
 ```
+
+The app loads `examples/sample_tracks.csv` by default and supports CSV upload.
+
+## Run Tests
+
+```bash
+python -m pytest
+```
+
+## Models
+
+- `MajorityClassBaseline`: most-frequent scenario baseline
+- `LogisticRegressionBaseline`: simple supervised baseline
+- `ScenarioClassifier`: logistic regression, SVM, or random forest with optional GridSearchCV
+- `ContentBasedRecommender`: cosine similarity over audio, metadata, sentiment, topic, POS, and chart features
+- `ScenarioRanker`: ranks by explicit scenario rubric
+- `HybridRecommender`: combines similarity, scenario score, and classifier probability
+
+Hybrid score:
+
+```text
+final_score = 0.3 * similarity_score + 0.4 * scenario_score + 0.3 * classifier_probability
+```
+
+## Scenario Scoring Rubric
+
+- `study`: calm audio, low tempo, acousticness, low emotional intensity, instrumentalness, low speechiness, noun/adjective signal
+- `gym`: energetic audio, high tempo, danceability, positive sentiment, motivation topic
+- `sleep`: calm audio, low tempo, acousticness, low loudness, low speechiness, low emotional intensity
+- `party`: danceability, energetic audio, high valence, popularity, party topic, Billboard appearance
+- `sad_healing`: sad sentiment, calm audio, acousticness, low energy, breakup topic, relaxing topic
+
+Scenario scores are clipped to `[0, 1]`, and each recommendation includes top explanation reasons.
+
+## Evaluation Metrics
+
+Classification:
+
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Micro F1
+- Macro F1
+- Confusion matrix
+
+Recommendation:
+
+- Diversity@K
+- Novelty@K
+- Scenario fit@K
+- Explainability coverage@K
+- Precision@K when ground truth is available
+
+## Scenario Labels
+
+If a dataset includes mood labels, they are mapped to scenarios. If explicit labels are missing, weak labels are generated from a documented audio/lyrics heuristic and stored in `scenario_label`. These weak labels are useful for coursework and baselines, but they are not human preference ground truth.
+
+## Limitations
+
+- Weak scenario labels are heuristic and may encode bias.
+- Lyrics licensing can limit redistribution of raw text.
+- Billboard chart data reflects popularity, not listener context or suitability.
+- Offline metrics do not fully measure real listener satisfaction.
+- The HMM POS tagger is educational and intentionally simple.
+
+## Future Work
+
+- Add human evaluation for scenario fit.
+- Use licensed lyric datasets or derived lyric features only.
+- Add Dask/Spark pipelines for 500K+ songs.
+- Add experiment tracking and model cards.
+- Improve matching with MusicBrainz IDs or other open identifiers.
+
+## Attribution
+
+This independent project structure was inspired by a public Spotify playlist recommender reference repository, but this repository is not a fork and the implementation has been rebuilt around offline data, context-aware scenarios, reproducible scraping, and IT4142 final project requirements.

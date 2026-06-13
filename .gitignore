@@ -5,6 +5,8 @@ __pycache__/
 .venv/
 venv/
 .env
+.agenteam/
+.codex/
 
 # Jupyter
 .ipynb_checkpoints/
@@ -15,6 +17,7 @@ data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 *.csv
+!examples/*.csv
 *.parquet
 *.pkl
 *.xlsx
