@@ -1,0 +1,32 @@
+{
+  "study": {
+    "diversity_at_k": 0.5,
+    "novelty_at_k": 0.735483870967742,
+    "scenario_fit_at_k": 0.8651323940758238,
+    "explainability_coverage_at_k": 1.0
+  },
+  "gym": {
+    "diversity_at_k": 1.0,
+    "novelty_at_k": 0.7,
+    "scenario_fit_at_k": 0.5780723833602319,
+    "explainability_coverage_at_k": 1.0
+  },
+  "sleep": {
+    "diversity_at_k": 0.5,
+    "novelty_at_k": 0.756989247311828,
+    "scenario_fit_at_k": 0.9180121496953634,
+    "explainability_coverage_at_k": 1.0
+  },
+  "party": {
+    "diversity_at_k": 0.8,
+    "novelty_at_k": 0.1623655913978494,
+    "scenario_fit_at_k": 0.6713590596950135,
+    "explainability_coverage_at_k": 1.0
+  },
+  "sad_healing": {
+    "diversity_at_k": 0.6,
+    "novelty_at_k": 0.6043010752688172,
+    "scenario_fit_at_k": 0.5216302570260545,
+    "explainability_coverage_at_k": 1.0
+  }
+}
