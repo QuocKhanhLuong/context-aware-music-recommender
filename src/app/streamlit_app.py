@@ -34,6 +34,7 @@ from src.app.ui_components import (
 )
 from src.data.load_data import load_default_tracks_dataset, prepare_tracks_dataframe
 from src.data.preprocess import preprocess_tracks
+from src.evaluation.cross_validation import compare_scenario_models_cv
 from src.evaluation.metrics import classification_metrics, recommendation_metrics
 from src.features.audio_features import add_audio_helper_scores
 from src.features.emotion_features import create_weak_scenario_label
@@ -43,6 +44,7 @@ from src.models.baseline_recommender import ContentBasedRecommender
 from src.models.hybrid_recommender import HybridRecommender
 from src.models.scenario_classifier import DEFAULT_FEATURES, ScenarioClassifier
 from src.models.scenario_ranker import ScenarioRanker
+from src.visualization.eda_plots import scenario_parallel_coordinates_data
 
 
 SCENARIOS = ["study", "gym", "sleep", "party", "sad_healing"]
@@ -312,6 +314,23 @@ def render_eda_dashboard(st, df: pd.DataFrame) -> None:
                 fig = px.bar(long_profile, x="feature", y="mean", color="scenario_label", barmode="group", title="Average scenario feature profile")
                 st.plotly_chart(_plot_layout(fig), use_container_width=True)
 
+            pc_data = scenario_parallel_coordinates_data(plot_df)
+            pc_dims = [column for column in pc_data.columns if column != "scenario_label"]
+            if len(pc_dims) >= 3 and "scenario_label" in pc_data:
+                codes, uniques = pd.factorize(pc_data["scenario_label"])
+                numeric = pc_data[pc_dims].apply(pd.to_numeric, errors="coerce")
+                pc_plot = numeric.assign(scenario=codes).dropna()
+                if not pc_plot.empty:
+                    fig = px.parallel_coordinates(
+                        pc_plot,
+                        dimensions=pc_dims,
+                        color="scenario",
+                        color_continuous_scale=px.colors.diverging.Tealrose,
+                        title="Scenario feature profiles (parallel coordinates)",
+                    )
+                    st.plotly_chart(_plot_layout(fig), use_container_width=True)
+                    st.caption("Line color encodes scenario: " + ", ".join(f"{i} = {label}" for i, label in enumerate(uniques)))
+
     with genre_tab:
         if "genre" not in plot_df:
             safe_plot_message(st, ["genre"])
@@ -380,6 +399,23 @@ def render_model_training_page(st, df: pd.DataFrame) -> None:
             st.write(metrics)
     else:
         st.info("Choose a classifier and click Train Model to evaluate a holdout split.")
+
+    st.markdown("---")
+    st.subheader("10-Fold Cross-Validation Comparison")
+    render_info_box(st, "Compare classifiers with stratified 10-fold cross-validation (macro F1). This is more reliable than a single holdout split and is used to select the best model.")
+    if st.button("Run cross-validation"):
+        with st.spinner("Running 10-fold cross-validation for each classifier..."):
+            try:
+                cv_df = compare_scenario_models_cv(df.dropna(subset=["scenario_label"]))
+            except Exception as exc:
+                st.error(str(exc))
+                return
+        cv_display = cv_df.assign(
+            **{"mean macro F1": cv_df["mean"].round(3), "std": cv_df["std"].round(3)}
+        )[["model", "mean macro F1", "std", "folds"]]
+        st.dataframe(cv_display, use_container_width=True)
+        best = cv_df.iloc[0]
+        st.success(f"Best model by mean macro F1: {best['model']} ({best['mean']:.3f} ± {best['std']:.3f}, {int(best['folds'])} folds)")
 
 
 def _apply_recommendation_filters(st, df: pd.DataFrame) -> pd.DataFrame:

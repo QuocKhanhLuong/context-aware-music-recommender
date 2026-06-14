@@ -20,3 +20,27 @@ def compare_models_with_cv(models: dict[str, object], X, y, scoring: str = "f1_m
         result["model"] = name
         rows.append(result)
     return pd.DataFrame(rows)[["model", "mean", "std", "folds"]]
+
+
+def compare_scenario_models_cv(
+    df: pd.DataFrame,
+    model_types: tuple[str, ...] = ("logistic_regression", "svm", "random_forest"),
+    label_column: str = "scenario_label",
+    scoring: str = "f1_macro",
+) -> pd.DataFrame:
+    """Cross-validate each scenario classifier and rank them by mean CV score.
+
+    Uses the same preprocessing pipeline as training, so the comparison reflects
+    the real model and supports model/hyperparameter selection.
+    """
+    from src.models.scenario_classifier import ScenarioClassifier
+
+    rows = []
+    for model_type in model_types:
+        result = ScenarioClassifier(model_type=model_type).cross_validate(
+            df, label_column=label_column, scoring=scoring
+        )
+        result["model"] = model_type
+        rows.append(result)
+    ranked = pd.DataFrame(rows)[["model", "mean", "std", "folds"]]
+    return ranked.sort_values("mean", ascending=False).reset_index(drop=True)

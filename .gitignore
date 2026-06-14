@@ -18,6 +18,7 @@ data/processed/*
 !data/processed/.gitkeep
 *.csv
 !examples/*.csv
+!reports/results/*.csv
 *.parquet
 *.pkl
 *.xlsx
