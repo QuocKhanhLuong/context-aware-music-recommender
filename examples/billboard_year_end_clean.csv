@@ -1,0 +1,601 @@
+year,rank,track_name,artist,source_url,scraped_at
+2018,1,God's Plan,Drake,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,2,Perfect,Ed Sheeran,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,3,Meant to Be,Bebe Rexha featuring Florida Georgia Line,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,4,Havana,Camila Cabello featuring Young Thug,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,5,Rockstar,Post Malone featuring 21 Savage,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,6,Psycho,Post Malone featuring Ty Dolla Sign,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,7,I Like It,"Cardi B , Bad Bunny and J Balvin",https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,8,The Middle,"Zedd , Maren Morris and Grey",https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,9,In My Feelings,Drake,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,10,Girls Like You,Maroon 5 featuring Cardi B,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,11,Nice for What,Drake,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,12,Lucid Dreams,Juice Wrld,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,13,Better Now,Post Malone,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,14,Finesse,Bruno Mars featuring Cardi B,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,15,Boo'd Up,Ella Mai,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,16,New Rules,Dua Lipa,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,17,Sad!,XXXTentacion,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,18,Never Be the Same,Camila Cabello,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,19,Love Lies,Khalid and Normani,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,20,No Tears Left to Cry,Ariana Grande,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,21,Mine,Bazzi,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,22,Thunder,Imagine Dragons,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,23,Look Alive,BlocBoy JB featuring Drake,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,24,Delicate,Taylor Swift,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,25,Yes Indeed,Lil Baby and Drake,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,26,Friends,Marshmello and Anne-Marie,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,27,Bad at Love,Halsey,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,28,Taste,Tyga featuring Offset,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,29,Let You Down,NF,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,30,No Limit,G-Eazy featuring ASAP Rocky and Cardi B,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,31,Fefe,6ix9ine featuring Nicki Minaj and Murda Beatz,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,32,Tequila,Dan + Shay,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,33,Feel It Still,Portugal. The Man,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,34,MotorSport,"Migos , Nicki Minaj and Cardi B",https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,35,I Like Me Better,Lauv,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,36,Youngblood,5 Seconds of Summer,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,37,Whatever It Takes,Imagine Dragons,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,38,Ric Flair Drip,Offset and Metro Boomin,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,39,I Fall Apart,Post Malone,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,40,Pray for Me,The Weeknd and Kendrick Lamar,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,41,Back to You,Selena Gomez,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,42,Sicko Mode,Travis Scott,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,43,Walk It Talk It,Migos featuring Drake,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,44,Gucci Gang,Lil Pump,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,45,Him & I,G-Eazy and Halsey,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,46,In My Blood,Shawn Mendes,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,47,All the Stars,Kendrick Lamar and SZA,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,48,Stir Fry,Migos,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,49,Too Good at Goodbyes,Sam Smith,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,50,Love,Kendrick Lamar featuring Zacari,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,51,This Is America,Childish Gambino,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,52,Nonstop,Drake,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,53,Heaven,Kane Brown,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,54,Bodak Yellow,Cardi B,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,55,Freaky Friday,Lil Dicky featuring Chris Brown,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,56,Gummo,6ix9ine,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,57,Plug Walk,Rich the Kid,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,58,Wait,Maroon 5,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,59,Be Careful,Cardi B,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,60,Wolves,Selena Gomez and Marshmello,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,61,Bartier Cardi,Cardi B featuring 21 Savage,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,62,God Is a Woman,Ariana Grande,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,63,Big Bank,"YG featuring 2 Chainz , Nicki Minaj and Big Sean",https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,64,Sorry Not Sorry,Demi Lovato,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,65,How Long,Charlie Puth,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,66,Lights Down Low,Max featuring Gnash,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,67,Young Dumb & Broke,Khalid,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,68,One Kiss,Calvin Harris and Dua Lipa,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,69,Natural,Imagine Dragons,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,70,You Make It Easy,Jason Aldean,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,71,Shape of You,Ed Sheeran,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,72,I Get the Bag,Gucci Mane featuring Migos,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,73,No Brainer,"DJ Khaled featuring Justin Bieber , Chance the Rapper and Quavo",https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,74,Plain Jane,ASAP Ferg featuring Nicki Minaj,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,75,Sky Walker,Miguel featuring Travis Scott,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,76,Marry Me,Thomas Rhett,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,77,Eastside,"Benny Blanco , Halsey and Khalid",https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,78,Call Out My Name,The Weeknd,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,79,King's Dead,"Jay Rock , Kendrick Lamar , Future and James Blake",https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,80,Happier,Marshmello and Bastille,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,81,Te Boté,"Nio García, Darell and Casper Mágico featuring Bad Bunny , Nicky Jam and Ozuna",https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,82,Simple,Florida Georgia Line,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,83,Lemon,N.E.R.D and Rihanna,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,84,1-800-273-8255,Logic featuring Alessia Cara and Khalid,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,85,Say Something,Justin Timberlake featuring Chris Stapleton,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,86,I'm Upset,Drake,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,87,Get Along,Kenny Chesney,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,88,Moonlight,XXXTentacion,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,89,What Lovers Do,Maroon 5 featuring SZA,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,90,X,Nicky Jam and J Balvin,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,91,Outside Today,YoungBoy Never Broke Again,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,92,Trip,Ella Mai,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,93,Dura,Daddy Yankee,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,94,Changes,XXXTentacion,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,95,Mercy,Brett Young,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,96,One Number Away,Luke Combs,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,97,Powerglide,Rae Sremmurd featuring Juicy J,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,98,IDGAF,Dua Lipa,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,99,Mi Gente,J Balvin and Willy William featuring Beyoncé,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2018,100,Believer,Imagine Dragons,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2018,2026-06-13T17:20:59+00:00
+2019,1,Old Town Road,Lil Nas X featuring Billy Ray Cyrus,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,2,Sunflower,Post Malone and Swae Lee,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,3,Without Me,Halsey,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,4,Bad Guy,Billie Eilish,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,5,Wow,Post Malone,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,6,Happier,Marshmello and Bastille,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,7,7 Rings,Ariana Grande,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,8,Talk,Khalid,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,9,Sicko Mode,Travis Scott,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,10,Sucker,Jonas Brothers,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,11,High Hopes,Panic! at the Disco,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,12,"Thank U, Next",Ariana Grande,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,13,Truth Hurts,Lizzo,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,14,Dancing with a Stranger,Sam Smith and Normani,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,15,Señorita,Shawn Mendes and Camila Cabello,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,16,I Don't Care,Ed Sheeran and Justin Bieber,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,17,Eastside,"Benny Blanco , Halsey and Khalid",https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,18,Going Bad,Meek Mill featuring Drake,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,19,Shallow,Lady Gaga and Bradley Cooper,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,20,Better,Khalid,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,21,No Guidance,Chris Brown featuring Drake,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,22,Girls Like You,Maroon 5 featuring Cardi B,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,23,Sweet but Psycho,Ava Max,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,24,Suge,DaBaby,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,25,Middle Child,J. Cole,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,26,Drip Too Hard,Lil Baby and Gunna,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,27,Someone You Loved,Lewis Capaldi,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,28,Ransom,Lil Tecca,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,29,If I Can't Have You,Shawn Mendes,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,30,Goodbyes,Post Malone featuring Young Thug,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,31,Zeze,Kodak Black featuring Travis Scott and Offset,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,32,Better Now,Post Malone,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,33,Youngblood,5 Seconds of Summer,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,34,Money in the Grave,Drake featuring Rick Ross,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,35,Speechless,Dan + Shay,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,36,"Break Up with Your Girlfriend, I'm Bored",Ariana Grande,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,37,Please Me,Cardi B and Bruno Mars,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,38,Money,Cardi B,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,39,You Need to Calm Down,Taylor Swift,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,40,Panini,Lil Nas X,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,41,Look Back at It,A Boogie wit da Hoodie,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,42,A Lot,21 Savage,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,43,Me!,Taylor Swift featuring Brendon Urie,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,44,Mia,Bad Bunny featuring Drake,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,45,Pop Out,Polo G featuring Lil Tjay,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,46,Beautiful Crazy,Luke Combs,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,47,Thotiana,Blueface,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,48,Lucid Dreams,Juice Wrld,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,49,Mo Bamba,Sheck Wes,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,50,Beautiful People,Ed Sheeran featuring Khalid,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,51,Wake Up in the Sky,"Gucci Mane , Bruno Mars and Kodak Black",https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,52,Whiskey Glasses,Morgan Wallen,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,53,God's Country,Blake Shelton,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,54,Be Alright,Dean Lewis,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,55,Pure Water,Mustard and Migos,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,56,The Git Up,Blanco Brown,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,57,Taki Taki,"DJ Snake featuring Selena Gomez , Ozuna and Cardi B",https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,58,Close to Me,Ellie Goulding and Diplo featuring Swae Lee,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,59,Envy Me,Calboy,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,60,You Say,Lauren Daigle,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,61,"Hey Look Ma, I Made It",Panic! at the Disco,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,62,Circles,Post Malone,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,63,Beer Never Broke My Heart,Luke Combs,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,64,The London,"Young Thug , J. Cole and Travis Scott",https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,65,Con Calma,Daddy Yankee and Katy Perry featuring Snow,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,66,Murder on My Mind,YNW Melly,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,67,When the Party's Over,Billie Eilish,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,68,Act Up,City Girls,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,69,I Like It,"Cardi B , Bad Bunny and J Balvin",https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,70,Trampoline,Shaed,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,71,Leave Me Alone,Flipp Dinero,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,72,Breathin,Ariana Grande,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,73,Bury a Friend,Billie Eilish,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,74,Close Friends,Lil Baby,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,75,Baby Shark,Pinkfong,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,76,My Type,Saweetie,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,77,Worth It,YK Osiris,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,78,Only Human,Jonas Brothers,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,79,Knockin' Boots,Luke Bryan,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,80,Trip,Ella Mai,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,81,Rumor,Lee Brice,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,82,Swervin,A Boogie wit da Hoodie featuring 6ix9ine,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,83,How Do You Sleep?,Sam Smith,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,84,Baby,Lil Baby and DaBaby,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,85,Look What God Gave Her,Thomas Rhett,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,86,Good as You,Kane Brown,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,87,Clout,Offset featuring Cardi B,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,88,Love Lies,Khalid and Normani,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,89,One Thing Right,Marshmello and Kane Brown,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,90,Cash Shit,Megan Thee Stallion featuring DaBaby,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,91,Tequila,Dan + Shay,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,92,Shotta Flow,NLE Choppa,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,93,Hot Girl Summer,Megan Thee Stallion featuring Nicki Minaj and Ty Dolla Sign,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,94,Talk You Out of It,Florida Georgia Line,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,95,Beautiful,Bazzi featuring Camila Cabello,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,96,Eyes on You,Chase Rice,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,97,All to Myself,Dan + Shay,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,98,Boyfriend,Ariana Grande and Social House,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,99,Walk Me Home,Pink,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2019,100,Robbery,Juice Wrld,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2019,2026-06-13T17:20:59+00:00
+2020,1,Blinding Lights,The Weeknd,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,2,Circles,Post Malone,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,3,The Box,Roddy Ricch,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,4,Don't Start Now,Dua Lipa,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,5,Rockstar,DaBaby featuring Roddy Ricch,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,6,Adore You,Harry Styles,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,7,Life Is Good,Future featuring Drake,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,8,Memories,Maroon 5,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,9,The Bones,Maren Morris,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,10,Someone You Loved,Lewis Capaldi,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,11,Say So,Doja Cat,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,12,I Hope,Gabby Barrett featuring Charlie Puth,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,13,Whats Poppin,"Jack Harlow featuring DaBaby , Tory Lanez and Lil Wayne",https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,14,Dance Monkey,Tones and I,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,15,Savage,Megan Thee Stallion featuring Beyoncé,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,16,Roxanne,Arizona Zervas,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,17,Intentions,Justin Bieber featuring Quavo,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,18,Everything I Wanted,Billie Eilish,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,19,Roses (Imanbek remix),Saint Jhn,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,20,Watermelon Sugar,Harry Styles,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,21,Before You Go,Lewis Capaldi,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,22,Falling,Trevor Daniel,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,23,"10,000 Hours",Dan + Shay and Justin Bieber,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,24,WAP,Cardi B featuring Megan Thee Stallion,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,25,Ballin',Mustard and Roddy Ricch,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,26,Hot Girl Bummer,Blackbear,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,27,Blueberry Faygo,Lil Mosey,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,28,Heartless,The Weeknd,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,29,Bop,DaBaby,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,30,Lose You to Love Me,Selena Gomez,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,31,Good as Hell,Lizzo,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,32,Toosie Slide,Drake,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,33,Break My Heart,Dua Lipa,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,34,Chasin' You,Morgan Wallen,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,35,Savage Love (Laxed – Siren Beat),Jawsh 685 and Jason Derulo,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,36,No Guidance,Chris Brown featuring Drake,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,37,My Oh My,Camila Cabello featuring DaBaby,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,38,Dynamite,BTS,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,39,Go Crazy,Chris Brown and Young Thug,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,40,High Fashion,Roddy Ricch featuring Mustard,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,41,Laugh Now Cry Later,Drake featuring Lil Durk,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,42,Woah,Lil Baby,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,43,Death Bed,Powfu featuring Beabadoobee,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,44,Señorita,Shawn Mendes and Camila Cabello,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,45,Highest in the Room,Travis Scott,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,46,Bad Guy,Billie Eilish,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,47,Mood,24kGoldn featuring Iann Dior,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,48,Rain on Me,Lady Gaga and Ariana Grande,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,49,For the Night,Pop Smoke featuring Lil Baby and DaBaby,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,50,Ritmo (Bad Boys for Life),Black Eyed Peas and J Balvin,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,51,Heart on Ice,Rod Wave,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,52,Nobody but You,Blake Shelton and Gwen Stefani,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,53,Trampoline,Shaed,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,54,Come & Go,Juice Wrld and Marshmello,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,55,Truth Hurts,Lizzo,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,56,If the World Was Ending,JP Saxe featuring Julia Michaels,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,57,We Paid,Lil Baby and 42 Dugg,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,58,Yummy,Justin Bieber,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,59,One Man Band,Old Dominion,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,60,Got What I Got,Jason Aldean,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,61,Sunday Best,Surfaces,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,62,Godzilla,Eminem featuring Juice Wrld,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,63,Bandit,Juice Wrld and YoungBoy Never Broke Again,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,64,Party Girl,StaySolidRocky,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,65,Die from a Broken Heart,Maddie & Tae,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,66,Popstar,DJ Khaled featuring Drake,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,67,All I Want for Christmas Is You,Mariah Carey,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,68,One of Them Girls,Lee Brice,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,69,Hard to Forget,Sam Hunt,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,70,One Margarita,Luke Bryan,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,71,Panini,Lil Nas X,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,72,Hot,Young Thug featuring Gunna,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,73,I Hope You're Happy Now,Carly Pearce and Lee Brice,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,74,Emotionally Scarred,Lil Baby,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,75,Suicidal,YNW Melly featuring Juice Wrld,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,76,The Bigger Picture,Lil Baby,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,77,Only Human,Jonas Brothers,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,78,The Woo,Pop Smoke featuring 50 Cent and Roddy Ricch,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,79,Sum 2 Prove,Lil Baby,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,80,Stuck with U,Ariana Grande and Justin Bieber,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,81,Mood Swings,Pop Smoke featuring Lil Tjay,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,82,You Should Be Sad,Halsey,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,83,Dior,Pop Smoke,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,84,Supalonely,Benee featuring Gus Dapperton,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,85,Even Though I'm Leaving,Luke Combs,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,86,The Scotts,The Scotts ( Travis Scott and Kid Cudi ),https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,87,Juicy,Doja Cat and Tyga,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,88,Be Like That,"Kane Brown , Swae Lee and Khalid",https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,89,Homesick,Kane Brown,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,90,Rags2Riches,Rod Wave featuring ATR Son Son,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,91,Bluebird,Miranda Lambert,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,92,Wishing Well,Juice Wrld,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,93,Does to Me,Luke Combs featuring Eric Church,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,94,Pussy Fairy (OTW),Jhené Aiko,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,95,ILY (I Love You Baby),Surf Mesa featuring Emilee,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,96,More Than My Hometown,Morgan Wallen,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,97,Lovin' on You,Luke Combs,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,98,Said Sum,Moneybagg Yo,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,99,Slide,H.E.R. featuring YG,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2020,100,Walk Em Down,NLE Choppa featuring Roddy Ricch,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2020,2026-06-13T17:20:59+00:00
+2021,1,Levitating,Dua Lipa,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,2,Save Your Tears,The Weeknd and Ariana Grande,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,3,Blinding Lights,The Weeknd,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,4,Mood,24kGoldn featuring Iann Dior,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,5,Good 4 U,Olivia Rodrigo,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,6,Kiss Me More,Doja Cat featuring SZA,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,7,Leave the Door Open,Silk Sonic ( Bruno Mars and Anderson .Paak ),https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,8,Drivers License,Olivia Rodrigo,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,9,Montero (Call Me by Your Name),Lil Nas X,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,10,Peaches,Justin Bieber featuring Daniel Caesar and Giveon,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,11,Butter,BTS,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,12,Stay,The Kid Laroi and Justin Bieber,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,13,Deja Vu,Olivia Rodrigo,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,14,Positions,Ariana Grande,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,15,Bad Habits,Ed Sheeran,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,16,Heat Waves,Glass Animals,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,17,Without You,The Kid Laroi,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,18,Forever After All,Luke Combs,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,19,Go Crazy,Chris Brown and Young Thug,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,20,Astronaut in the Ocean,Masked Wolf,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,21,34+35,Ariana Grande featuring Doja Cat and Megan Thee Stallion,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,22,What You Know Bout Love,Pop Smoke,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,23,My Ex's Best Friend,Machine Gun Kelly featuring Blackbear,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,24,Industry Baby,Lil Nas X and Jack Harlow,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,25,Therefore I Am,Billie Eilish,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,26,Up,Cardi B,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,27,Fancy Like,Walker Hayes,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,28,Dakiti,Bad Bunny and Jhay Cortez,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,29,Best Friend,Saweetie featuring Doja Cat,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,30,Rapstar,Polo G,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,31,Heartbreak Anniversary,Giveon,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,32,For the Night,Pop Smoke featuring Lil Baby and DaBaby,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,33,Calling My Phone,Lil Tjay and 6lack,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,34,Beautiful Mistakes,Maroon 5 featuring Megan Thee Stallion,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,35,Holy,Justin Bieber featuring Chance the Rapper,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,36,On Me,Lil Baby,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,37,You Broke Me First,Tate McRae,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,38,Traitor,Olivia Rodrigo,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,39,Back in Blood,Pooh Shiesty featuring Lil Durk,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,40,I Hope,Gabby Barrett featuring Charlie Puth,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,41,Dynamite,BTS,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,42,Wockesha,Moneybagg Yo,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,43,You Right,Doja Cat and the Weeknd,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,44,"Beat Box 2 "" / "" Beat Box 3",SpotemGottem featuring Pooh Shiesty / SpotemGottem featuring DaBaby,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,45,Laugh Now Cry Later,Drake featuring Lil Durk,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,46,Need to Know,Doja Cat,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,47,Wants and Needs,Drake featuring Lil Baby,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,48,Way 2 Sexy,Drake featuring Future and Young Thug,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,49,Telepatía,Kali Uchis,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,50,Whoopty,CJ,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,51,Lemonade,Internet Money and Gunna featuring Don Toliver and Nav,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,52,Good Days,SZA,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,53,Starting Over,Chris Stapleton,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,54,Body,Megan Thee Stallion,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,55,Willow,Taylor Swift,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,56,Bang!,AJR,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,57,Better Together,Luke Combs,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,58,You're Mines Still,Yung Bleu featuring Drake,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,59,Every Chance I Get,DJ Khaled featuring Lil Baby and Lil Durk,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,60,Essence,Wizkid featuring Justin Bieber and Tems,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,61,Chasing After You,Ryan Hurd and Maren Morris,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,62,The Good Ones,Gabby Barrett,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,63,Leave Before You Love Me,Marshmello and Jonas Brothers,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,64,Glad You Exist,Dan + Shay,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,65,Lonely,Justin Bieber and Benny Blanco,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,66,Beggin',Måneskin,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,67,Streets,Doja Cat,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,68,What's Next,Drake,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,69,Famous Friends,Chris Young and Kane Brown,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,70,Lil Bit,Nelly and Florida Georgia Line,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,71,Thot Shit,Megan Thee Stallion,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,72,Late at Night,Roddy Ricch,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,73,Kings & Queens,Ava Max,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,74,Anyone,Justin Bieber,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,75,Track Star,Mooski,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,76,Time Today,Moneybagg Yo,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,77,Cry Baby,Megan Thee Stallion featuring DaBaby,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,78,All I Want for Christmas Is You,Mariah Carey,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,79,No More Parties,Coi Leray featuring Lil Durk,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,80,What's Your Country Song,Thomas Rhett,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,81,One Too Many,Keith Urban and Pink,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,82,Arcade,Duncan Laurence,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,83,Yonaguni,Bad Bunny,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,84,Good Time,Niko Moon,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,85,If I Didn't Love You,Jason Aldean and Carrie Underwood,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,86,Knife Talk,Drake featuring 21 Savage and Project Pat,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,87,POV,Ariana Grande,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,88,Just the Way,Parmalee and Blanco Brown,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,89,Take My Breath,The Weeknd,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,90,We're Good,Dua Lipa,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,91,Hell of a View,Eric Church,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,92,Rockin' Around the Christmas Tree,Brenda Lee,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,93,Put Your Records On,Ritt Momney,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,94,Happier Than Ever,Billie Eilish,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,95,Single Saturday Night,Cole Swindell,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,96,Things a Man Oughta Know,Lainey Wilson,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,97,Throat Baby (Go Baby),BRS Kash,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,98,Tombstone,Rod Wave,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,99,Drinkin' Beer. Talkin' God. Amen.,Chase Rice featuring Florida Georgia Line,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2021,100,Todo de Ti,Rauw Alejandro,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2021,2026-06-13T17:21:00+00:00
+2022,1,Heat Waves,Glass Animals,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,2,As It Was,Harry Styles,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,3,Stay,The Kid Laroi and Justin Bieber,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,4,Easy on Me,Adele,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,5,Shivers,Ed Sheeran,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,6,First Class,Jack Harlow,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,7,Big Energy,Latto,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,8,Ghost,Justin Bieber,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,9,Super Gremlin,Kodak Black,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,10,Cold Heart (Pnau Remix),Elton John and Dua Lipa,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,11,Wait for U,Future featuring Drake and Tems,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,12,About Damn Time,Lizzo,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,13,Bad Habits,Ed Sheeran,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,14,Thats What I Want,Lil Nas X,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,15,Enemy,Imagine Dragons and JID,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,16,Industry Baby,Lil Nas X and Jack Harlow,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,17,ABCDEFU,Gayle,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,18,Need to Know,Doja Cat,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,19,Wasted on You,Morgan Wallen,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,20,Me Porto Bonito,Bad Bunny and Chencho Corleone,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,21,Woman,Doja Cat,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,22,Tití Me Preguntó,Bad Bunny,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,23,Running Up That Hill (A Deal with God),Kate Bush,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,24,We Don't Talk About Bruno,"Carolina Gaitán , Mauro Castillo, Adassa , Rhenzy Feliz , Diane Guerrero , Stephanie Beatriz and the Encanto cast",https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,25,Late Night Talking,Harry Styles,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,26,I Like You (A Happier Song),Post Malone featuring Doja Cat,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,27,You Proof,Morgan Wallen,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,28,Bad Habit,Steve Lacy,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,29,Sunroof,Nicky Youre and Dazy,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,30,One Right Now,Post Malone and the Weeknd,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,31,Good 4 U,Olivia Rodrigo,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,32,Numb Little Bug,Em Beihold,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,33,Jimmy Cooks,Drake featuring 21 Savage,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,34,'Til You Can't,Cody Johnson,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,35,Fancy Like,Walker Hayes,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,36,The Kind of Love We Make,Luke Combs,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,37,I Ain't Worried,OneRepublic,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,38,Break My Soul,Beyoncé,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,39,Something in the Orange,Zach Bryan,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,40,Save Your Tears,The Weeknd and Ariana Grande,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,41,Smokin out the Window,Silk Sonic ( Bruno Mars and Anderson .Paak ),https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,42,Levitating,Dua Lipa,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,43,In a Minute,Lil Baby,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,44,Moscow Mule,Bad Bunny,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,45,You Right,Doja Cat and the Weeknd,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,46,She Had Me at Heads Carolina,Cole Swindell,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,47,Vegas,Doja Cat,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,48,Pushin P,Gunna and Future featuring Young Thug,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,49,Buy Dirt,Jordan Davis and Luke Bryan,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,50,I Hate U,SZA,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,51,Boyfriend,Dove Cameron,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,52,Glimpse of Us,Joji,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,53,Surface Pressure,Jessica Darrow,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,54,Fall in Love,Bailey Zimmerman,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,55,Love Nwantiti (Ah Ah Ah),CKay,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,56,Super Freaky Girl,Nicki Minaj,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,57,Hrs and Hrs,Muni Long,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,58,Sand in My Boots,Morgan Wallen,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,59,Mamiii,Becky G and Karol G,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,60,Knife Talk,Drake featuring 21 Savage and Project Pat,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,61,AA,Walker Hayes,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,62,Sweetest Pie,Megan Thee Stallion and Dua Lipa,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,63,Provenza,Karol G,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,64,Essence,Wizkid featuring Justin Bieber and Tems,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,65,All I Want for Christmas Is You,Mariah Carey,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,66,Bam Bam,Camila Cabello featuring Ed Sheeran,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,67,5 Foot 9,Tyler Hubbard,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,68,Get Into It (Yuh),Doja Cat,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,69,Efecto,Bad Bunny,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,70,Rock and a Hard Place,Bailey Zimmerman,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,71,Doin' This,Luke Combs,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,72,Oh My God,Adele,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,73,Better Days,"Neiked , Mae Muller and Polo G",https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,74,Meet Me at Our Spot,The Anxiety : Willow and Tyler Cole,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,75,Fingers Crossed,Lauren Spencer-Smith,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,76,All Too Well (Taylor's Version),Taylor Swift,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,77,Party,Bad Bunny and Rauw Alejandro,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,78,Después de la Playa,Bad Bunny,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,79,You Should Probably Leave,Chris Stapleton,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,80,Rockin' Around the Christmas Tree,Brenda Lee,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,81,Broadway Girls,Lil Durk featuring Morgan Wallen,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,82,Take My Name,Parmalee,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,83,What Happened to Virgil,Lil Durk featuring Gunna,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,84,Puffin on Zootiez,Future,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,85,Like I Love Country Music,Kane Brown,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,86,Jingle Bell Rock,Bobby Helms,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,87,Ojitos Lindos,Bad Bunny and Bomba Estéreo,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,88,Trouble with a Heartbreak,Jason Aldean,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,89,A Holly Jolly Christmas,Burl Ives,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,90,Kiss Me More,Doja Cat featuring SZA,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,91,She Likes It,Russell Dickerson featuring Jake Scott,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,92,Never Say Never,Cole Swindell and Lainey Wilson,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,93,Damn Strait,Scotty McCreery,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,94,She's All I Wanna Be,Tate McRae,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,95,Last Night Lonely,Jon Pardi,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,96,Flower Shops,Ernest featuring Morgan Wallen,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,97,To the Moon,Jnr Choi and Sam Tompkins,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,98,Unholy,Sam Smith and Kim Petras,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,99,One Mississippi,Kane Brown,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2022,100,Circles Around This Town,Maren Morris,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2022,2026-06-13T17:21:00+00:00
+2023,1,Last Night,Morgan Wallen,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,2,Flowers,Miley Cyrus,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,3,Kill Bill,SZA,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,4,Anti-Hero,Taylor Swift,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,5,Creepin ',"Metro Boomin , the Weeknd and 21 Savage",https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,6,Calm Down,Rema and Selena Gomez,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,7,Die for You,The Weeknd and Ariana Grande,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,8,Fast Car,Luke Combs,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,9,Snooze,SZA,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,10,I'm Good (Blue),David Guetta and Bebe Rexha,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,11,Unholy,Sam Smith and Kim Petras,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,12,You Proof,Morgan Wallen,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,13,Something in the Orange,Zach Bryan,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,14,Rich Flex,Drake and 21 Savage,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,15,As It Was,Harry Styles,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,16,Rock and a Hard Place,Bailey Zimmerman,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,17,Under the Influence,Chris Brown,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,18,Cruel Summer,Taylor Swift,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,19,Thinkin' Bout Me,Morgan Wallen,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,20,Boy's a Liar Pt. 2,PinkPantheress and Ice Spice,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,21,Favorite Song,Toosii,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,22,Thought You Should Know,Morgan Wallen,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,23,Thank God,Kane Brown and Katelyn Brown,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,24,Sure Thing,Miguel,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,25,All My Life,Lil Durk featuring J. Cole,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,26,Ella Baila Sola,Eslabon Armado and Peso Pluma,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,27,Karma,Taylor Swift featuring Ice Spice,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,28,Just Wanna Rock,Lil Uzi Vert,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,29,Cuff It,Beyoncé,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,30,Vampire,Olivia Rodrigo,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,31,FukUMean,Gunna,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,32,Lavender Haze,Taylor Swift,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,33,Players,Coi Leray,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,34,Need a Favor,Jelly Roll,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,35,Dance the Night,Dua Lipa,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,36,Love You Anyway,Luke Combs,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,37,One Thing at a Time,Morgan Wallen,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,38,Superhero (Heroes & Villains),"Metro Boomin , Future and Chris Brown",https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,39,Bad Habit,Steve Lacy,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,40,La Bebé,Yng Lvcas and Peso Pluma,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,41,Golden Hour,Jvke,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,42,Religiously,Bailey Zimmerman,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,43,Spin Bout U,Drake and 21 Savage,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,44,Cupid,Fifty Fifty,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,45,Search & Rescue,Drake,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,46,Barbie World,Nicki Minaj and Ice Spice with Aqua,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,47,Next Thing You Know,Jordan Davis,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,48,Escapism,Raye featuring 070 Shake,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,49,Un x100to,Grupo Frontera and Bad Bunny,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,50,Until I Found You,Stephen Sanchez,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,51,Shirt,SZA,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,52,Paint the Town Red,Doja Cat,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,53,Made You Look,Meghan Trainor,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,54,Wait in the Truck,Hardy featuring Lainey Wilson,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,55,All I Want for Christmas Is You,Mariah Carey,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,56,Everything I Love,Morgan Wallen,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,57,Chemical,Post Malone,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,58,Heart Like a Truck,Lainey Wilson,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,59,"Going, Going, Gone",Luke Combs,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,60,Rockin' Around the Christmas Tree,Brenda Lee,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,61,Dancin' in the Country,Tyler Hubbard,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,62,Daylight,David Kushner,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,63,Lift Me Up,Rihanna,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,64,Eyes Closed,Ed Sheeran,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,65,TQG,Karol G and Shakira,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,66,Try That in a Small Town,Jason Aldean,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,67,Tennessee Orange,Megan Moroney,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,68,Jingle Bell Rock,Bobby Helms,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,69,Princess Diana,Ice Spice and Nicki Minaj,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,70,Tomorrow 2,GloRilla and Cardi B,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,71,A Holly Jolly Christmas,Burl Ives,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,72,Where She Goes,Bad Bunny,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,73,Bebe Dame,Fuerza Regida and Grupo Frontera,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,74,I Remember Everything,Zach Bryan featuring Kacey Musgraves,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,75,I Like You (A Happier Song),Post Malone featuring Doja Cat,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,76,What It Is (Block Boy),Doechii featuring Kodak Black,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,77,Nobody Gets Me,SZA,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,78,Rich Men North of Richmond,Oliver Anthony Music,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,79,Super Freaky Girl,Nicki Minaj,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,80,Dial Drunk,Noah Kahan and Post Malone,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,81,What Was I Made For?,Billie Eilish,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,82,Seven,Jung Kook featuring Latto,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,83,Wait for U,Future featuring Drake and Tems,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,84,Last Christmas,Wham!,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,85,Handle on You,Parker McCollum,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,86,Por Las Noches,Peso Pluma,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,87,Memory Lane,Old Dominion,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,88,Area Codes,Kaliii,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,89,Bury Me in Georgia,Kane Brown,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,90,PRC,Peso Pluma and Natanael Cano,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,91,What My World Spins Around,Jordan Davis,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,92,Ain't That Some,Morgan Wallen,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,93,Wild as Her,Corey Kent,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,94,Peaches & Eggplants,Young Nudy featuring 21 Savage,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,95,I Wrote the Book,Morgan Wallen,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,96,"Bzrp Music Sessions, Vol. 53",Bizarrap and Shakira,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,97,Meltdown,Travis Scott featuring Drake,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,98,Put It on da Floor Again,Latto featuring Cardi B,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,99,Bloody Mary,Lady Gaga,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
+2023,100,Watermelon Moonshine,Lainey Wilson,https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2023,2026-06-13T17:21:01+00:00
