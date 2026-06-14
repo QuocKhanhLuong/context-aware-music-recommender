@@ -36,8 +36,8 @@ For a fresh clone, the project still runs immediately with sample data under `ex
 | Problem definition | Scenario-aware music suitability prediction and recommendation |
 | Data collection | Offline CSV datasets plus Wikipedia Billboard Year-End scraping (snapshot committed at `examples/billboard_year_end_clean.csv`; see `docs/data_sources.md`) |
 | Data integration and cleaning | `src/data/load_data.py`, `src/data/integrate_data.py`, `src/data/preprocess.py`; chart features are merged into tracks in the notebook (section 3b) and `scripts/prepare_real_data.py` |
-| EDA and visualization | `src/visualization/eda_plots.py` and `notebooks/context_aware_music_pipeline.ipynb` |
-| Machine learning modeling | Baselines, logistic regression, SVM, random forest, holdout split, and CV helpers |
+| EDA and visualization | `src/visualization/eda_plots.py` and `notebooks/context_aware_music_pipeline.ipynb`, including a parallel-coordinates view of scenario feature profiles |
+| Machine learning modeling | Baselines, logistic regression, SVM, random forest, holdout split, and stratified 10-fold cross-validation for model selection |
 | Advanced NLP | HMM POS tagging with Viterbi decoding in `src/features/pos_hmm_viterbi.py` |
 | Scientific evaluation | Classification metrics, recommendation metrics, diversity, novelty, scenario fit, explainability coverage |
 | Big data discussion | `docs/big_data_considerations.md` |
@@ -209,6 +209,28 @@ Ethical scraping note:
 - Keep source URLs and scraping dates.
 - Check `robots.txt`, Wikimedia usage guidance, and terms of use before larger runs.
 - Do not scrape or redistribute copyrighted lyrics unless explicitly allowed.
+
+## Export Report Artifacts
+
+Generate the figures and experiment results used in the written report:
+
+```bash
+python scripts/export_report_artifacts.py --max-rows 5000
+```
+
+This writes to `reports/` (committed example outputs are generated from the
+Kaggle Spotify Tracks dataset, ~6k-row sample):
+
+- `reports/figures/*.png` — correlation heatmap, audio-feature distributions,
+  energy-vs-valence scatter, scenario label counts, scenario feature profile,
+  top genres, parallel coordinates, confusion matrix, and the 10-fold CV
+  comparison bar chart.
+- `reports/results/*` — `classification_metrics.json`, `confusion_matrix.csv`,
+  `cv_comparison.csv` (10-fold cross-validation model comparison), and
+  `recommendation_metrics.json`.
+
+On a tiny sample dataset the holdout/CV step is skipped with a note; run it on a
+real dataset for full results.
 
 ## Run The Notebook
 

@@ -98,3 +98,12 @@ class ScenarioClassifier:
         self.fit(train_df, label_column=label_column)
         predictions = self.predict(test_df)
         return classification_metrics(test_df[label_column], predictions)
+
+    def cross_validate(self, df: pd.DataFrame, label_column: str = "scenario_label", scoring: str = "f1_macro") -> dict[str, float]:
+        """Run stratified (up to) 10-fold cross-validation on the full pipeline."""
+        from src.evaluation.cross_validation import run_10_fold_cv
+
+        X = df[[column for column in self.features if column in df]].copy()
+        y = df[label_column]
+        pipeline = self._build_pipeline(X)
+        return run_10_fold_cv(pipeline, X, y, scoring=scoring)
